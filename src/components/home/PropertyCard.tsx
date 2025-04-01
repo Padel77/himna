@@ -81,7 +81,7 @@ export function TimelineDemo() {
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-          {[logo5, logo6, logo7, logo8].map((imageSrc, index) => (
+          {[logo5, logo6, logo7].map((imageSrc, index) => (
               <div key={index} className="relative">
               <Image
                 src={imageSrc}
@@ -127,7 +127,7 @@ export function TimelineDemo() {
       title: t("Changelog"),
       content: (
         <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-sm font-bold mb-4">
+          {/* <p className="text-neutral-800 dark:text-neutral-200 text-md md:text-sm font-bold mb-4">
             {t("morelastWork")}
           </p>
           <div className="mb-8">
@@ -146,7 +146,7 @@ export function TimelineDemo() {
             <div className="flex gap-2 font-bold items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
               ✅ {t("morelastWorkcontent5")}
             </div>
-          </div>
+          </div> */}
           <div className="grid grid-cols-2 gap-4">
           {[logo9, logo10, logo11, logo12].map((imageSrc, index) => (
               <div key={index} className="relative">

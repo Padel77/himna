@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Head from "next/head";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import { NextIntlClientProvider } from "next-intl";
 import { Tajawal } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
@@ -24,7 +24,7 @@ export const metadata: Metadata & {
   description:
     "شركة هيمنة للخدمات التسويقية تقدم حلول تسويقية مبتكرة لتحسين العلامات التجارية عبر الإنترنت. نقدم خدمات SEO، إدارة الحملات الإعلانية، تسويق عبر السوشيال ميديا، وتحليل أداء الحملات بأعلى مستوى من الاحترافية في السعودية.",
   verification: {
-    google: "JdxvM9oL4eIaWAlcqGmMhTvFcYO5_5jfOiUBTqZ",
+    google: "YOUR_GOOGLE_VERIFICATION_CODE",
   },
 };
 export default async function LocaleLayout({

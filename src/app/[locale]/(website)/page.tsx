@@ -13,7 +13,7 @@ export default async function Home() {
       <div className="container mx-auto z-0 ">
         <TimelineDemo />
         <RealAdversting />
-        <CardHoverEffectDemo />
+        {/* <CardHoverEffectDemo /> */}
         <AppleCardsCarouselDemo />
         <ServiceApply />
 

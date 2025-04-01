@@ -38,6 +38,14 @@ export function AppleCardsCarouselDemo() {
       Image: step3,
       content: <DummyContent />,
     },
+    
+    {
+      id:4,
+      category: t("clientStasfied"),
+      title: t("clientStasfiedContent"),
+      Image: step3,
+      content: <DummyContent />,
+    },
   ];
 
   const cards = data.map((card, index) => (

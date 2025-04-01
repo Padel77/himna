@@ -13,7 +13,7 @@ const CustomerService = () => {
   const handleWhatsappClick = () => {
     if (navigator.userAgent.includes("WhatsApp")) {
       // WhatsApp is installed
-      window.open(`whatsapp://send?phone=966575645308`);
+      window.open(`whatsapp://send?phone=96657`);
     } else {
       // WhatsApp is not installed, open WhatsApp Web
       window.open(

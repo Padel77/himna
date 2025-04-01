@@ -7,11 +7,12 @@
     "finalwork": "اخر اعمالنا",
     "commonQuestion": "الاسئلة شائعة",
     "services": "خدماتنا",
+    "about" : "من نحن",
     "contact": "تواصل معنا",
     "arabic": "عربي",
     "english": "انجليزي",
-    "backgroundTitle": " أهلا بكم فى الموقع الرسمي لمؤسسة",
-    "backgroundDescription": " للخدمات النسويقية وحلول الأعمال الرقمية",
+    "backgroundTitle": " أهلا بكم فى",
+    "backgroundDescription": " للخدمات التسويقية وحلول الأعمال الرقمية",
     "conectWithUs": "",
     "GoodService": "افضل الخدمات",
     "GoodPrice": "اسعار تنافسية",
@@ -47,16 +48,18 @@
     "whatsapp": "واتساب"
   },
   "howtobuy": {
-    "howtobuyTitle": "كيف يتم شراء العفش المستعمل في الرياض؟",
+    "howtobuyTitle": "رؤيتنا وهدفنا",
     "howtobuyContent": "يمكنك التواصل معنا عبر الهاتف او الواتساب وسوف يتم الرد عليك في اقرب وقت ممكن",
     "howtobuyButton": "تواصل معنا",
     "howtobuyNumber": " 0591088 (057)",
-    "checkproduct": "نعاين",
-    "checkproductContent": "نعاين العفش وتقديم السعر",
-    "rateproduct": "نقيم",
-    "rateproductContent": "نقوم بتقييم و بتحديد حالة العفش ونقدم السعر ",
-    "buyproduct": "شراء",
-    "buyproductContent": "نقوم بشراء العفش ونقوم بنقله وفكه"
+    "checkproduct": "الريادة",
+    "checkproductContent": "نسعى لنكون الرواد فى الحلول التسويقية المبتكرة",
+    "rateproduct": "علاقات طويلة الامد",
+    "rateproductContent": "بناء شراكات مستدامة مع عملائنا ",
+    "buyproduct": "خدمات متكاملة",
+    "buyproductContent": "تقديم خدمات تسويقية تلبى احتياجات العملاء",
+    "clientStasfied": "رضاء العميل",
+    "clientStasfiedContent": "تحقيق اقصى قدر من رضا العميل"
   },
   "contact": {
     "contactUs": "تواصل معنا",
@@ -69,9 +72,9 @@
     "contactContent": " مؤسسة هيمنة للخدمات التسويقية متخصصة فى اسواق المملكة العربية السعودية شركة رائدة فى تقديم حلول التسويق الرقمى",
     "Home": "الرئيسية",
     "FinalWork": "اخر اعمالنا",
-    "CommonQuestions": "الاسئلة الشائعة",
+    "CommonQuestions": "من نحن",
     "WhatToBuy": "خدماتنا",
     "contactNumber": " 0591088 (057)",
-    "whatsapp": "المهندس"
+    "whatsapp": "هيمنة"
   }
 }

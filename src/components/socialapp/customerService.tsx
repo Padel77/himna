@@ -17,7 +17,7 @@ const CustomerService = () => {
     } else {
       // WhatsApp is not installed, open WhatsApp Web
       window.open(
-        "https://api.whatsapp.com/send/?phone=966575645308&text&type=phone_number&app_absent=0",
+        "https://api.whatsapp.com/send/?phone=966570591088&text&type=phone_number&app_absent=0",
         "_blank",
         "noopener noreferrer"
       );
@@ -26,7 +26,7 @@ const CustomerService = () => {
 
   const handleCallClick = () => {
     console.log("Call clicked");
-    window.open("tel:+9660570591088");
+    window.open("tel:+966570591088");
   };
 
   const handleScrollUpClick = () => {

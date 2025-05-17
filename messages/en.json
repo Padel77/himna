@@ -37,6 +37,19 @@
     "contactNumber": "(057) 0591088",
     "whatsapp": "Himnah"
   },
+  "services": {
+    "services": "Services",
+    "servicesContent": "We offer a variety of marketing services that meet the needs of our clients in various fields",
+    "programming": "Programming",
+    "programmingContent": "Web and mobile application development and software",
+    "FashionModel": "Fashion Model",
+    "FashionModelContent": "Marketing fashion, clothing and accessories",
+    "design": "Design",
+    "designContent": "Designing visual identity and prints",
+    "marketing": "Marketing",
+    "marketingContent": "Electronic marketing and social media management",
+    "content": "Content"
+  },
   "adversting": {
     "adverstingTitle": "Adversting",
     "adverstingContent": "Contact us and exchange your old furniture for new furniture and sell your furniture at the best prices",
@@ -55,7 +68,9 @@
     "rateproduct": "Rate",
     "rateproductContent": "We evaluate and determine the condition of the furniture and offer the price",
     "buyproduct": "Buy",
-    "buyproductContent": "We buy the furniture and transport it and dismantle it"
+    "buyproductContent": "We buy the furniture and transport it and dismantle it",
+    "clientStasfiedContent" : "We are committed to providing the best service to our customers and ensuring their satisfaction with our services. We strive to meet their needs and exceed their expectations.",
+    "clientStasfied" : ""
   },
   "contact": {
     "contactUs": "Contact Us",

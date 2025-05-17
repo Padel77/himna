@@ -3,9 +3,10 @@ import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 import logo from "@../../../public/assets/uniqelogo.png";
-import step1 from "@../../../public/assets/step1.png";
-import step2 from "@../../../public/assets/step2.png";
-import step3 from "@../../../public/assets/step3.png";
+import step1 from "@../../../public/assets/2.png";
+import step2 from "@../../../public/assets/aw.jpeg";
+import step3 from "@../../../public/assets/3.png";
+import step4 from "@../../../public/assets/4.png";
 import { useTranslations } from "next-intl";
 import UseSearchParamsHook from "@/hooks/UseSearchParamsHook";
 import Link from "next/link";
@@ -14,37 +15,36 @@ import { FaWhatsapp } from "react-icons/fa6";
 export function AppleCardsCarouselDemo() {
   const t = useTranslations("howtobuy");
   const { pathname } = UseSearchParamsHook();
-
   const data = [
     {
-      id:1 ,
+      id: 1,
       category: t("checkproduct"),
       title: t("checkproductContent"),
       Image: step1,
-      content: <DummyContent />,
+      content: <DummyContent title={t("checkproduct")} />,
     },
     {
-      id:2 ,
+      id: 2,
       category: t("rateproduct"),
       title: t("rateproductContent"),
       Image: step2,
-      content: <DummyContent />,
+      content: <DummyContent title={t("rateproduct")} />,
     },
 
     {
-      id:3 ,
+      id: 3,
       category: t("buyproduct"),
       title: t("buyproductContent"),
       Image: step3,
-      content: <DummyContent />,
+      content: <DummyContent title={t("buyproduct")} />,
     },
-    
+
     {
-      id:4,
+      id: 4,
       category: t("clientStasfied"),
       title: t("clientStasfiedContent"),
-      Image: step3,
-      content: <DummyContent />,
+      Image: step4,
+      content: <DummyContent title={t("clientStasfied")} />,
     },
   ];
 
@@ -55,9 +55,8 @@ export function AppleCardsCarouselDemo() {
   return (
     <div id="services" className="w-full h-full py-20">
       <h2
-        className={`max-w-7xl ${
-          pathname === "/ar" ? "pl-4" : "pr-4"
-        } mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans`}
+        className={`max-w-7xl ${pathname === "/ar" ? "pl-4" : "pr-4"
+          } mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans`}
       >
         {t("howtobuyTitle")}
       </h2>
@@ -66,18 +65,19 @@ export function AppleCardsCarouselDemo() {
   );
 }
 
-const DummyContent = () => {
+const DummyContent = ({ title }: { title: string }) => {
   const t = useTranslations("howtobuy");
-  const handleWhatsappClick = () => {
+  const handleWhatsappClick = (content: string) => {
+    const message = encodeURIComponent(content);
     if (navigator.userAgent.includes("WhatsApp")) {
       // WhatsApp is installed
-      window.open(`whatsapp://send?phone=966575645308`);
+      window.open(`whatsapp://send?phone=966570591088&text=${message}`);
     } else {
       // WhatsApp is not installed, open WhatsApp Web
       window.open(
-        "https://api.whatsapp.com/send/?phone=966575645308&text&type=phone_number&app_absent=0",
+        `https://api.whatsapp.com/send/?phone=966570591088&text=${message}&type=phone_number&app_absent=0`,
         "_blank",
-        "noopener noreferrer"
+        "noopener noreferrer",
       );
     }
   };
@@ -114,7 +114,7 @@ const DummyContent = () => {
                 <PhoneCall className="animate-ping" size={16} />
               </Link>
               <button
-                onClick={handleWhatsappClick}
+                onClick={() => handleWhatsappClick(title)}
                 className="flex button items-center mt-4 px-2 py-2 gap-2 font-bold bg-[#2D2D2D] text-white rounded hover:bg-blue-600"
               >
                 <FaWhatsapp size={18} />

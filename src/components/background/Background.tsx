@@ -1,19 +1,25 @@
 "use client";
 import React from "react";
-import { ArrowBigDown, ArrowDown, ArrowUpRight, PhoneCall } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 import Link from "next/link";
-import clsx from "clsx";
-import Logo1 from "@../../../public/assets/about/Rectangle.svg";
-import Breadcrumb from "../ui/breadcrumb";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "../ui/hero-highlight";
-
+import { Highlight } from "../ui/hero-highlight";
+// Use a static path for the video file instead of importing
+const videomo = "/assets/video.mp4";
 export const Background: React.FC = () => {
   const t = useTranslations("header");
 
   return (
-    <div className="w-full bg-[url('../../../public/assets/background.png')] bg-gradient-* relative h-screen bg-fit text-white">
+    <div className="w-full relative h-screen text-white">
+      <video
+      className="absolute inset-0 w-full h-full object-cover"
+      src={videomo}
+      autoPlay
+      loop
+      muted
+      playsInline
+      />
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
       <span className="relative h-[40rem] flex items-center justify-center w-full group">

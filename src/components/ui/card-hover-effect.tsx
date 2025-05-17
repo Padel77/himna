@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -20,18 +21,31 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
+    const t = useTranslations("services");
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
+  const handleWhatsappClick = (content: string) => {
+    const message = encodeURIComponent(content);
+    if (navigator.userAgent.includes("WhatsApp")) {
+      // WhatsApp is installed
+      window.open(`whatsapp://send?phone=966570591088&text=${message}`);
+    } else {
+      // WhatsApp is not installed, open WhatsApp Web
+      window.open(
+        `https://api.whatsapp.com/send/?phone=966570591088&text=${message}&type=phone_number&app_absent=0`,
+        "_blank",
+        "noopener noreferrer",
+      );
+    }
+  };
   return (
     <>
       {" "}
       <div className="col-span-3 text-center mt-4">
         <h1 className="text-2xl  md:text-4xl font-black">
-          خدمات شراء اثاث مستعمل بافضل الاسعار
+          {t("services")}
         </h1>
-        <h1 className="text-md text-gray-500  md:text-2xl font-black">
-          شراء اثاث مستعمل و شراء غرف نوم و شراء مطابخ مستعملة بالرياض و شراء
-          اثاث مكتبي وشراء مكيفات مستعملة وشراء معدات مطاعم مستعملة .
+        <h1 className="text-md text-gray-500 md:text-2xl font-black">
+          {t("servicesContent")}
         </h1>
       </div>
       <div
@@ -42,7 +56,9 @@ export const HoverEffect = ({
       >
         {items.map((item, idx) => (
           <Link
-            href={item?.link}
+            href={`https://api.whatsapp.com/send/?phone=966570591088&text=${item?.title}&type=phone_number&app_absent=0`}
+            target="_blank"
+            rel="noopener noreferrer"
             key={item?.id}
             className="relative group  block p-2 h-full w-full"
             onMouseEnter={() => setHoveredIndex(idx)}

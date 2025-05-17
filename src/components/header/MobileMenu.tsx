@@ -19,25 +19,18 @@ const MobileMenu: React.FC = () => {
     },
     {
       id: 2,
-      name: t("finalwork"),
+      name: t("about"),
       href: `#about`,
       activeLink: "about",
     },
     {
       id: 3,
-      name: t("whatbuy"),
+      name: t("services"),
       href: "#hoverEffect",
-      activeLink: "hoverEffect"
-    },
-
-    {
-      id: 4,
-      name: t("commonQuestion"),
-      href: "#services",
       activeLink: "services",
     },
     {
-      id: 5,
+      id: 4,
       name: t("contact"),
       href: "#contact",
       activeLink: "contact",

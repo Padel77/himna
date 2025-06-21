@@ -8,6 +8,7 @@
     "commonQuestion": "Common Questions",
     "services": "Services",
     "about": "AboutUs",
+    "portfolio": "Portfolio",
     "contact": "Contact",
     "arabic": "Arabic",
     "english": "English",
@@ -36,6 +37,7 @@
     "morelastWorkcontent5": "Trained team",
     "contactNumber": "(057) 0591088",
     "whatsapp": "Himnah"
+
   },
   "services": {
     "services": "Services",

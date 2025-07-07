@@ -1,10 +1,10 @@
 import { HoverEffect } from "../ui/card-hover-effect";
-import logo3 from "@../../../public/assets/image.webp";
-import logo4 from "@../../../public/assets/image.webp";
-import logo5 from "@../../../public/assets/image.webp";
-import logo6 from "@../../../public/assets/image.webp";
-import logo8 from "@../../../public/assets/image.webp";
-import logo9 from "@../../../public/assets/image.webp";
+import logo3 from "@../../../public/assets/إدارة الحملات الاعلانية.jpg";
+import logo4 from "@../../../public/assets/تصاميم الويب.jpg";
+import logo5 from "@../../../public/assets/تصميم الهوية البصرية-1.jpg";
+import logo6 from "@../../../public/assets/التسويق الرقمي.jpg";
+import logo8 from "@../../../public/assets/إدارة الحملات الاعلانية.jpg";
+import logo9 from "@../../../public/assets/تسويق عبر السوشيال.jpg";
 import { getTranslations } from "next-intl/server";
 
 export async function CardHoverEffectDemo() {
@@ -50,7 +50,7 @@ export async function CardHoverEffectDemo() {
       title: t("socialMedia"),
       description: t("socialMediaContent"),
       link: t("socialMedia"),
-      image: logo8,
+      image: logo9,
     },
   ];
 

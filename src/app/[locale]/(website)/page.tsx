@@ -13,8 +13,8 @@ export default  function Home() {
       <CustomerService />
       <Background />
       <div className="container mx-auto z-0 ">
-        <TimelineDemo />
         <RealAdversting />
+        <TimelineDemo />
         <CardHoverEffectDemo />
         <AppleCardsCarouselDemo />
         <ServiceApply />

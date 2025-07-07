@@ -24,15 +24,19 @@ export const NavLink: React.FC = () => {
       name: t("about"),
       href: `#about`,
       activeLink: "about",
-    },
-    {
+    }, {
       id: 3,
+      name: t("portfolio"),
+      href: "#portfolio",
+      activeLink: "portfolio",
+    }, {
+      id: 4,
       name: t("services"),
-      href: "#hoverEffect",
+      href: "#services",
       activeLink: "services",
     },
     {
-      id: 4,
+      id: 5,
       name: t("contact"),
       href: "#contact",
       activeLink: "contact",

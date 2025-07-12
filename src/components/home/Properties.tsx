@@ -1,7 +1,7 @@
 import { HoverEffect } from "../ui/card-hover-effect";
 import logo3 from "@../../../public/assets/إدارة المحتوى.jpg";
 import logo4 from "@../../../public/assets/تصاميم الويب.jpg";
-import logo5 from "@../../../public/assets/تصميم الهوية البصرية-1.jpg";
+import logo5 from "@../../../public/assets/تصميم الهوية البصرية.jpg";
 import logo6 from "@../../../public/assets/التسويق الرقمي.jpg";
 import logo8 from "@../../../public/assets/إدارة الحملات الاعلانية.jpg";
 import logo9 from "@../../../public/assets/تسويق عبر السوشيال.jpg";

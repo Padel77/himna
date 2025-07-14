@@ -6,7 +6,7 @@ import logo from "@../../../public/assets/uniqelogo.png";
 import step1 from "@../../../public/assets/الريادة في الحلول التسويقية.jpg";
 import step2 from "@../../../public/assets/شراكة مستدامة.jpg";
 import step3 from "@../../../public/assets/خدمات تسويقية.jpg";
-import step4 from "@../../../public/assets/رضا العملاء.jpg";
+import step4 from "@../../../public/assets/رضا العملاء.jpeg";
 import { useTranslations } from "next-intl";
 import UseSearchParamsHook from "@/hooks/UseSearchParamsHook";
 import Link from "next/link";

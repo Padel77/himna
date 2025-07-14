@@ -40,7 +40,7 @@ export const HoverEffect = ({
   return (
     <>
       {" "}
-      <div className="col-span-3 text-center mt-4 bg-[#140D2E] text-white dark:text-white dark:bg-neutral-950 p-4 rounded-lg shadow-md">
+      <div className="col-span-3 text-center mt-4  dark:text-white dark:bg-neutral-950 p-4 rounded-lg shadow-md">
         <h1 className="text-2xl  md:text-4xl font-black">
           {t("services")}
         </h1>

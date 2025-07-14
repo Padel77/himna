@@ -13,7 +13,7 @@ const ServiceApply: React.FC = () => {
 
   return (
     <div id="services" className=" ">
-      <div className="flex  flex-col md:flex-row items-center justify-around bg-[#F8F8F7] px-10 py-20 rounded-lg  ">
+      <div className="flex  flex-col md:flex-row items-center justify-around  px-10 py-20 rounded-lg shadow-lg ">
         <div className="">
           <h2 className="text-5xl max-w-md text-wrap font-black ">
             {t("ServiceApply")}

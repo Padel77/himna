@@ -5,6 +5,7 @@ import { CardHoverEffectDemo } from "@/components/home/Properties";
 import RealAdversting from "@/components/home/RealAdversting";
 import { AppleCardsCarouselDemo } from "@/components/home/AppleCardsCarouselDemo";
 import ServiceApply from "@/components/home/ServiceApply";
+import Partners from "@/components/home/OurPartners";
 
 export default  function Home() {
   
@@ -19,8 +20,8 @@ export default  function Home() {
         <AppleCardsCarouselDemo />
         <ServiceApply />
         {/* <BeAmbassador /> */}
+        <Partners />
         {/*<BeAmbassador />
-        <OurPartners partners={fetchedData?.partners} />
          */}
       </div>
     </>

@@ -6,9 +6,11 @@ interface LayoutProps {
   children: React.ReactNode;
 }
 export default async function WebsiteLayout({ children }: LayoutProps) {
+
   return (
+
     <>
-      <Navbar /> 
+      <Navbar />
       {children}
       <Footer />
     </>

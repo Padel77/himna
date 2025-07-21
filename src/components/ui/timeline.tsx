@@ -43,7 +43,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full  bg-white dark:bg-neutral-950 font-sans "
+      className="w-full  dark:bg-neutral-950 font-sans "
       ref={containerRef}
     >
       <div className="md:flex items-center justify-around space-y-4 max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10">
@@ -77,10 +77,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           className="rounded-lg md:w-auto w-full  shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
         />
         <div className="flex flex-col center space-y-4">
-          <h2 className="text-2xl md:text-5xl mb-4 text-black font-black dark:text-white max-w-4xl">
+          <h2 className="text-2xl md:text-5xl mb-4  font-black max-w-4xl">
             {t("aboutUs")}
           </h2>
-          <p className="text-neutral-900 dark:text-neutral-300 text-md md:text-base font-bold max-w-md">
+          <p className=" text-md md:text-base font-bold max-w-md">
             {t("aboutElmohandas")}
           </p>
         </div>
@@ -101,13 +101,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 className={`h-10 absolute ${pathname === "/ar"
                   ? "right-3 md:right-3"
                   : "left-3 md:left-3 "
-                  }   w-10 rounded-full bg-white dark:bg-black flex items-center justify-center`}
+                  }   w-10 rounded-full  dark:bg-black flex items-center justify-center`}
               >
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               <h3
                 className={`hidden md:block text-xl ${pathname === "/ar" ? " md:pr-20" : "md:pl-20"
-                  } md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 `}
+                  } md:text-5xl font-bold  `}
               >
                 {item.title}
               </h3>

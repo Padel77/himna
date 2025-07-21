@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import step3 from "@../../../public/assets/خدمات تسويقية.jpg";
+import { useTranslations } from "next-intl";
 
 
 const partners = [
@@ -27,9 +28,10 @@ const partners = [
   },
 ]
 const Partners: React.FC = () => {
+  const t = useTranslations("ourpartener");
   return (
     <div className="text-center w-full p-10 ">
-      <p className="text-3xl font-black my-1">Our Partners</p>
+      <p className="text-3xl font-black my-6">{t("ourparteners")}</p>
       <div className="flex md:justify-between  justify-center flex-wrap md:flex-nowrap  items-center  ">
         {partners?.map((Item) => (
           <>

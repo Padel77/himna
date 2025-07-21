@@ -26,7 +26,7 @@ const RealAdversting: React.FC = () => {
   };
 
   return (
-    <div id="hoverEffect" className="relative  max-w-6xl mx-auto my-12 ">
+    <div id="hoverEffect" className="relative  max-w-6xl mx-auto   ">
       <div className="flex  flex-col md:flex-row items-center justify-between  px-10 py-20 rounded-lg  ">
         <div className="">
           <h2 className="text-3xl max-w-md text-wrap font-black ">

@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React, { useState } from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { useTranslations } from "next-intl";
@@ -26,7 +26,7 @@ const Video = "/assets/package/content management/1.mp4";
 const Video1 = "/assets/package/content management/2.mp4";
 const Video2 = "/assets/package/content management/3.mp4";
 const Video3 = "/assets/package/content management/4.mp4";
-
+const logo72212 = "/assets/package/image.webp";
 export function TimelineDemo() {
   const t = useTranslations("about");
   const [previewImage, setPreviewImage] = useState(null as string | null);
@@ -44,10 +44,16 @@ export function TimelineDemo() {
           <div className="grid grid-cols-2 gap-4">
             {[Video, Video1, Video2, Video3].map((imageSrc, index) => (
               <div key={index} className="relative">
-                <video width="320" height="240" controls preload="none" >
-                  <source src={typeof imageSrc === "string" ? imageSrc : imageSrc} type="video/mp4" />
+                <video
+                  width="320"
+                  height="240"
+                  controls
+                  preload="none"
+                  poster={logo72212}
+                >
+                  <source src={imageSrc} type="video/mp4" />
                   <track
-                    src={caption.src}
+                    src={logo72212}
                     kind="subtitles"
                     srcLang="en"
                     label="English"

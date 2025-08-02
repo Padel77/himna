@@ -36,8 +36,11 @@
     "morelastWorkcontent4": "Years of experience",
     "morelastWorkcontent5": "Trained team",
     "contactNumber": "(057) 0591088",
-    "whatsapp": "Himnah"
-
+    "portfolio": "Portfolio",
+    "portfolioContent": "We have a wide range of successful projects in various fields, including digital marketing, web development, and design. Our portfolio reflects our commitment to quality and innovation.",
+    "whatsapp": "Himnah",
+    "photographic": "Photography",
+    "photographicContent": "We offer professional photography services, documenting your moments and works with the highest possible quality. Our team of professional photographers ensures you receive images that reflect the beauty and splendor of every moment."
   },
   "services": {
     "services": "Services",
@@ -50,7 +53,18 @@
     "designContent": "Designing visual identity and prints",
     "marketing": "Marketing",
     "marketingContent": "Electronic marketing and social media management",
-    "content": "Content"
+    "content": "Content",
+    "contentContent": "Content creation and management",
+    "photography": "Photography",
+    "photographyContent": "Professional photography services for events and products",
+    "advertising": "Advertising",
+    "advertisingContent": "Advertising campaigns and media buying",
+    "consulting": "Consulting",
+    "consultingContent": "Marketing and business consulting services",
+    "contactNumber": "(057) 0591088",
+    "whatsapp": "Himnah",
+    "socialMedia": "Social Media",
+    "socialMediaContent": " build a strong presence on social media."
   },
   "adversting": {
     "adverstingTitle": "Adversting",
@@ -71,8 +85,12 @@
     "rateproductContent": "We evaluate and determine the condition of the furniture and offer the price",
     "buyproduct": "Buy",
     "buyproductContent": "We buy the furniture and transport it and dismantle it",
-    "clientStasfiedContent" : "We are committed to providing the best service to our customers and ensuring their satisfaction with our services. We strive to meet their needs and exceed their expectations.",
-    "clientStasfied" : ""
+    "clientStasfiedContent": "We are committed to providing the best service to our customers and ensuring their satisfaction with our services. We strive to meet their needs and exceed their expectations.",
+    "clientStasfied": ""
+  },
+  "ourpartener": {
+    "ourparteners": "Our Partners",
+    "ourpartenersContent": "You can contact us by phone or WhatsApp and we will respond to you as soon as possible"
   },
   "contact": {
     "contactUs": "Contact Us",
